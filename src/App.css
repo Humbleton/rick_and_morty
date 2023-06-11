@@ -1,0 +1,75 @@
+body {
+  background-color: rgba(48, 42, 42, 0.897);
+}
+.App {
+  text-align: center;
+  color: white;
+}
+
+.main-header {
+  font-size: 2.5rem;
+}
+input {
+  width: 40%;
+  border-radius: 9px;
+  padding: 1.4rem;
+  margin-bottom: 1.7rem;
+  color: black;
+}
+input::placeholder {
+  text-align: center;
+  font-size: 1.7rem;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  justify-content: center;
+}
+nav > *:hover {
+  opacity: .7;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.aliveIcon {
+  display: inline-block;
+  background-color: green;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-left: .7rem;
+}
+.deadIcon {
+  display: inline-block;
+  background-color: red;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-left: .7rem;
+}
+.unknownIcon {
+  display: inline-block;
+  background-color: rgb(56, 54, 54);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-left: .7rem;
+}
+/* image */
+img {
+  border-radius: 9.125px;
+}
+/* Detail Container */
+.detailContainer {
+  display: grid;
+  place-items: center;
+  flex-wrap: wrap;
+  height: 70vh;
+
+}
+.split {
+  display: flex;
+  gap: 40px;
+}
