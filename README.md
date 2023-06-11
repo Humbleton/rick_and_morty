@@ -8,4 +8,5 @@ Filtering out option is available.
 * [Tailwind](https://tailwindcss.com/docs/installation)
 ## How to use
 * git clone 'name of the repo'
+* npm install
 * npm start
