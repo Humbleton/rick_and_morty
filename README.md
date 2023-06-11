@@ -10,3 +10,5 @@ Filtering out option is available.
 * git clone 'name of the repo'
 * npm install
 * npm start
+
+View [Demo](https://mortysmith.netlify.app/)
